@@ -10,10 +10,33 @@ https://dev.opera.com/articles/http-response-codes/
 
 day 2:
 
-In logic, syntax is anything having to do with formal languages or formal systems without regard to any interpretation or meaning given to them. Syntax is concerned with the rules used for constructing, or transforming the symbols and words of a language, as contrasted with the semantics of a language which is concerned with its meaning.
+In logic, syntax is anything having to do with formal languages or formal systems without regard to any interpretation
+or meaning given to them. Syntax is concerned with the rules used for constructing, or transforming the symbols and words
+of a language, as contrasted with the semantics of a language which is concerned with its meaning. 
 
 https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#Empty_elements
 
 https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics#Anatomy_of_a_CSS_ruleset
 
-Anything in a CSS document between /* and */ is a CSS comment, which the browser ignores when it renders the code. This is a place for you to write helpful notes on what you are doing.
+Anything in a CSS document between /* and */ is a CSS comment, which the browser ignores when it renders the code.
+This is a place for you to write helpful notes on what you are doing. 
+
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics#Boxes_boxes_it's_all_about_boxes
+
+One rather interesting property we've used here is text-shadow, which applies a text shadow to the text content of the
+element. Its four values are as follows:  The first pixel value sets the horizontal offset of the shadow from the text — how
+far it moves across: a negative value should move it to the left. The second pixel value sets the vertical offset of the
+shadow from the text — how far it moves down, in this example; a negative value should move it up. The third pixel value sets
+the blur radius of the shadow — a bigger value will mean a more blurry shadow. The fourth value sets the base color of the
+shadow.  The <body> element is block level, meaning it takes up space on the page and can have margin and other spacing values
+applied to it. Images, on the other hand, are inline elements, meaning they can't. So to apply margins to the image, we have
+to give the image block-level behavior using display: block;.
+
+https://news.codecademy.com/your-guide-to-semicolons-in-javascript/
+
+https://mathiasbynens.be/notes/shapes-ics
+
+Note: Mixing data types can lead to some strange results when performing calculations, so be careful that you are
+referring to your variables correctly, and getting the results you expect. For example, enter "35" + "25" into your console. Why
+don't you get the result you expected? Because the quote marks turn the numbers into strings, so you've ended up
+concatenating strings rather than adding numbers. If you enter, 35 + 25 you'll get the correct result.
