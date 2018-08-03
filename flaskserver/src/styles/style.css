@@ -1,0 +1,10 @@
+p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+    font-family: 'Roboto Slab', serif;
+  }
+
+li {
+    font-family: 'Open Sans', sans-serif;
+  }

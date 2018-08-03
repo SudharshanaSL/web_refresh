@@ -1,0 +1,19 @@
+day 1:
+
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name
+https://dev.opera.com/articles/http-basic-introduction/
+https://dev.opera.com/articles/http-basic-introduction/
+https://dev.opera.com/articles/http-response-codes/
+
+day 2:
+
+In logic, syntax is anything having to do with formal languages or formal systems without regard to any interpretation or meaning given to them. Syntax is concerned with the rules used for constructing, or transforming the symbols and words of a language, as contrasted with the semantics of a language which is concerned with its meaning.
+
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#Empty_elements
+
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics#Anatomy_of_a_CSS_ruleset
+
+Anything in a CSS document between /* and */ is a CSS comment, which the browser ignores when it renders the code. This is a place for you to write helpful notes on what you are doing.
