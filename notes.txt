@@ -40,3 +40,30 @@ Note: Mixing data types can lead to some strange results when performing calcula
 referring to your variables correctly, and getting the results you expect. For example, enter "35" + "25" into your console. Why
 don't you get the result you expected? Because the quote marks turn the numbers into strings, so you've ended up
 concatenating strings rather than adding numbers. If you enter, 35 + 25 you'll get the correct result.
+
+https://html.spec.whatwg.org/multipage/indices.html#element-content-categories
+
+There are two important categories of elements in HTML which you should know about. They are block-level elements and inline elements.
+
+Block-level elements form a visible block on a page — they will appear on a new line from whatever content went before it, and any content that goes after it will also appear on a new line. Block-level elements tend to be structural elements on the page that represent, for example, paragraphs, lists, navigation menus, footers, etc. A block-level element wouldn't be nested inside an inline element, but it might be nested inside another block-level element.
+Inline elements are those that are contained within block-level elements and surround only small parts of the document’s content, not entire paragraphs and groupings of content. An inline element will not cause a new line to appear in the document; they would normally appear inside a paragraph of text, for example an <a> element (hyperlink) or emphasis elements such as <em> or <strong>.
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
+https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
+
+<a> — this stands for "anchor" and will make the piece of text it wraps around into a hyperlink. This can take a number of attributes, but several are as follows:
+
+href: This attribute specifies as its value the web address that you want the link to point to; where the browser navigates to when the link is clicked. For example, href="https://www.mozilla.org/".
+title: The title attribute specifies extra information about the link, such as what the page is that you are linking to. For example, title="The Mozilla homepage". This will appear as a tooltip when hovered over.
+target: The target attribute specifies the browsing context which will be used to display the link. For example, target="_blank" will display the link in a new tab. If you want to display the link in the current tab just omit this attribute.
+
+
+day 3 : https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Other_types_of_metadata
+http://ogp.me/
+
+<meta charset="utf-8">
+This element simply specifies the document's character encoding — the character set that the document is permitted to use. utf-8 is a universal character set that includes pretty much any character from any human language. This means that your web page will be able to handle displaying any language; it's therefore a good idea to set this on every web page you create! For example, your page could handle English and Japanese just fine:
+
+In HTML we use the <em> (emphasis) element to mark up such instances. As well as making the document more interesting to read, these are recognised by screen readers and spoken out in a different tone of voice.
+
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#Italic_bold_underline...
